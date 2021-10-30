@@ -1,0 +1,36 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Hind', sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+}
+
+.body {
+	background-image: url(/img/imagen-html-cierre.jpg);
+}
+
+.container {
+	background: #49d;
+	height: 500px;
+	padding: 50px 500px;
+}
+
+.cajita {
+	background: #be0;
+	width: 150px;
+	height: 150px;
+	transition: background .5s, transform 2s, margin-left 3s, opacity .5s;
+
+}
+
+.cajita:hover {
+	background: #d66;
+	transform: scale3d(3.0, 1.5, 1.0);
+	margin-left: 150px;
+	background-image: url(/img/blogimage.svg);
+	background-size: 100% 100%;
+	opacity: 70%;
+}
+
+
